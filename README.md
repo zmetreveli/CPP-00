@@ -1,117 +1,118 @@
-📘 CPP00 – Introduction to Object-Oriented Programming in C++
+# ✨ CPP00 – Introduction to C++ (42 Barcelona)
 
-CPP00 is the first module of the 42 C++ Piscine, introducing fundamental Object-Oriented Programming concepts.
-This project focuses on understanding how C++ works compared to C, specifically in terms of classes, objects, memory model, namespaces, and basic I/O.
+🚀 Your first step into Object-Oriented Programming
+📚 Understanding classes, objects, namespaces & I/O
+🧠 Designed to build the foundation for all future C++ modules
 
-🚀 Goals of the Module
+🎯 Objective
 
-CPP00 teaches you to:
+## CPP00 introduces the core principles of C++ through small exercises that teach you:
 
-Understand the difference between procedural (C) and object-oriented (C++) programming
+🏗️ How classes & objects work
 
-Create and use classes and objects
+🎛️ Public vs private encapsulation
 
-Work with member functions and attributes
+🌐 How to use namespaces
 
-Use namespaces
+💬 Handling input/output with iostreams
 
-Handle input/output streams (std::cout, std::cin)
+🧱 Structuring programs across .cpp and .hpp files
 
-Learn canonical class form basics
+🧮 Using static attributes & methods
 
-Understand header structure, compilation and separation of .hpp / .cpp files
+🧵 Understanding the basics of OOP memory model
 
-This module establishes the foundation that all later CPP modules build upon.
 
-📂 Project Structure
-CPP00/
-│
-├── ex00/   # Megaphone program
-├── ex01/   # PhoneBook (dynamic behavior & simple classes)
-├── ex02/   # Accounts simulation (static members, logging)
-└── README.md
+## 📁 Project Structure
 
-📝 Exercise Breakdown
-ex00 – Megaphone
+CPP00
+├── ex00/   # Megaphone (basic I/O)
+├── ex01/   # PhoneBook (classes + encapsulation)
+└── ex02/   # Account (static members, logs, object lifecycle)
 
-A simple program that takes arguments and prints them in uppercase, demonstrating:
+🧪 Exercises Overview
+🟦 ex00 – Megaphone
 
-Basic compilation
+💡 Your first C++ program
+Transforms input arguments into uppercase using std::toupper and prints them with std::cout.
 
-std::cout
 
-Handling command-line arguments
+## 🟩 ex01 – PhoneBook
 
-ex01 – PhoneBook
+📱 Mini contact manager
+Builds your first real class system in C++:
 
-Small interactive program that stores contacts.
-Concepts learned:
+Component	Purpose
+Contact	Stores user data (name, phone, secret…)
+PhoneBook	Manages up to 8 contacts, search & formatting
 
-Class design
+You learn:
 
 Encapsulation
 
 Member functions
 
-Static arrays & simple input handling
+Simple formatted output
 
-You build two classes:
+Input parsing
 
-Contact
 
-PhoneBook
-
-ex02 – Account
-
-A simulation of bank accounts demonstrating:
-
-Static attributes
-
-Static member functions
-
-Timestamps & formatted output
-
-Object lifecycle understanding
-
-🧠 Key C++ Concepts Learned
+## 💡 Key Concepts Learned
 Concept	Description
-Classes & Objects	How to define, instantiate, and interact with C++ classes
-Namespaces	Avoiding naming conflicts using namespace
-I/O Streams	Using std::cout, std::cin, formatting output
-Static Members	Shared attributes across instances
-Encapsulation	Private vs public members
-Header Files	Separating declaration and implementation
-🛠️ Compilation Rules
+Classes & Objects	Core OOP structure in C++
+Namespaces	Avoid collisions (std::)
+I/O Streams	std::cout, std::cin, formatting
+Encapsulation	public / private logic
+Static Members	Shared data across all objects
+Headers	.hpp declarations vs .cpp implementations
+🔧 Compilation
 
 All exercises must compile with:
 
 c++ -Wall -Wextra -Werror -std=c++98
 
 
-No external libraries or C++11+ features are allowed.
+🚫 No C++11 features, templates, STL containers, or additional libraries.
 
-▶️ How to Run It
+▶️ Running the Programs
 
-Example (from inside an exercise folder):
+Example:
 
+cd ex01
 make
-./program_name
+./phonebook
 
 
-Or compile manually:
+Or manual:
 
 c++ -Wall -Wextra -Werror -std=c++98 *.cpp -o program
 
-📚 What This Project Taught Me
+🧠 What I Gained From CPP00
 
-The importance of clean class design
+A solid first understanding of object-oriented principles
 
-How C++ handles memory, objects and scope
+Clear distinction between C vs C++ paradigms
 
-Differences between C and C++ paradigms
+Clean code structure using headers + cpp files
 
-How to structure multi-file C++ programs
+How encapsulation makes code safer and more modular
 
-Working with the C++98 standard and avoiding modern shortcuts
+Confidence to move into CPP01 → CPP09
 
-This module was my first step into object-oriented programming, and it set the foundation for CPP01–CPP09.
+🔗 Repository
+
+👉 https://github.com/zmetreveli/CPP-00
+
+🎨 ¿Quieres que lo haga aún más visual?
+
+Puedo añadir:
+
+🖼️ Banners tipo portada
+
+🎖️ Badges animados (shields.io)
+
+📊 Tablas más elaboradas
+
+📌 Un "quick demo" con ejemplos de output
+
+🧭 Un índice navegable con anchors
