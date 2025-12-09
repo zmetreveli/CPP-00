@@ -29,7 +29,7 @@
 CPP00
 ├── ex00/   # Megaphone (basic I/O)
 ├── ex01/   # PhoneBook (classes + encapsulation)
-└── ex02/   # Account (static members, logs, object lifecycle)
+
 
 ---
 
@@ -42,7 +42,7 @@ Transforms input arguments into uppercase using std::toupper and prints them wit
 
 ## 🟩 ex01 – PhoneBook
 
-📱 Mini contact manager
+### 📱 Mini contact manager
 Builds your first real class system in C++:
 
 Component	Purpose
