@@ -22,6 +22,7 @@
 
 🧵 Understanding the basics of OOP memory model
 
+---
 
 ## 📁 Project Structure
 
@@ -29,6 +30,8 @@ CPP00
 ├── ex00/   # Megaphone (basic I/O)
 ├── ex01/   # PhoneBook (classes + encapsulation)
 └── ex02/   # Account (static members, logs, object lifecycle)
+
+---
 
 🧪 Exercises Overview
 🟦 ex00 – Megaphone
